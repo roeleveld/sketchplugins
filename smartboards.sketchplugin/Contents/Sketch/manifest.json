@@ -1,0 +1,32 @@
+{
+  "author" : "Eli Horne",
+  "commands" : [
+    {
+      "script" : "align.js",
+      "handler" : "onRun",
+      "shortcut" : "shift cmd alt G",
+      "name" : "Align",
+      "identifier" : "align"
+    },
+    {
+      "script" : "align-and-rename.js",
+      "handler" : "onRun",
+      "shortcut" : "cmd alt G",
+      "name" : "Align and Number",
+      "identifier" : "align-and-rename"
+    },
+    {
+      "script" : "batch-custom-rename.js",
+      "handler" : "onRun",
+      "shortcut" : "cmd alt R",
+      "name" : "Rename Page Artboards",
+      "identifier" : "customRename"
+    }
+  ],
+  "identifier" : "com.elihorne.smartboards",
+  "version" : "1.3",
+  "homepage" : "https://github.com/elihorne/smartboards",
+  "description" : "Align and rename artboards for easy organization.",
+  "authorEmail" : "elihorne@gmail.com",
+  "name" : "Smartboards"
+}

@@ -1,0 +1,31 @@
+{
+  "author" : "Josh Wayne",
+  "commands" : [
+    {
+      "script" : "split.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Split Text Lines to Layers",
+      "identifier" : "split text lines to layers"
+    },
+    {
+      "script" : "combine.cocoascript",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Combine Text Layers",
+      "identifier" : "combine text layers"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "split text lines to layers",
+      "combine text layers"
+    ],
+    "title" : "Text"
+  },
+  "identifier" : "com.joshwayne.sketch.split-combine-text",
+  "version" : "3.0",
+  "description" : "Simple plugin to split and combine multiple text lines.",
+  "authorEmail" : "",
+  "name" : "Split/Combine Text"
+}

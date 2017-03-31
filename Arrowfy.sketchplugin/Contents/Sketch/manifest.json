@@ -1,0 +1,21 @@
+{
+    "name" : "Arrowfy",
+    "description" : "Add simple arrowhead to end of selected paths. Matches color and weight.",
+    "author" : "Jocelyn Lin",
+    "version" : "1.1",
+    "commands": [
+	{
+	    "name" : "Arrowfy",
+	    "identifier" : "arrowfy",
+	    "shortcut" : "ctrl a",
+	    "script" : "script.cocoascript",
+	    "handler" : "createArrow"
+	}
+    ],
+    "menu" : {
+	"isRoot": true,
+	"items": [
+	    "arrowfy"
+	]
+    }
+}
